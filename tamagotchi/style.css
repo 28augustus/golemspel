@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap");
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Unbounded", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.hoofdimg {
+  min-width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hoofdimg img {
+  max-height: 80vh;
+  cursor: pointer;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 30%;
+}
+
+.sidebar img {
+  max-width: 175px;
+  height: auto;
+  cursor: pointer;
+}
+
+.krachtbron,
+.energieBron,
+.biome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  width: 70%;
+}
+
+#energieBron {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
